@@ -14,7 +14,7 @@ public static class AppointmentServiceValidator
         if( string.IsNullOrEmpty( appointment.Patient.Email ) )
             validation.Errors.Add("El email es requerido!");
 
-        if( ! appointment.Patient.Email.Contains("@"))
+        if( appointment.Patient.Email != null && !appointment.Patient.Email.Contains("@"))
             validation.Errors.Add("Email invalido!");
 
         if( appointment.Date.Equals( DateTime.MinValue ))

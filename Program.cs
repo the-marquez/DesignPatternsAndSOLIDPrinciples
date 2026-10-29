@@ -8,7 +8,7 @@ Console.WriteLine("---------------------------------");
 var marc = new Patient
 {
     Name = "Marc",
-    Email = "marcc99@gmail.com"
+    Email = null
 };
 
 
