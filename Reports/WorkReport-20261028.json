@@ -1,0 +1,5 @@
+[
+  { "Name": "Matematicas I", "Students": 120, "Rating": 4.5 },
+  { "Name": "Estudios Sociales", "Students": 120, "Rating": 3.2 },
+  { "Name": "Lenguaje y Literatura", "Students": 120, "Rating": 3.9 }
+]
